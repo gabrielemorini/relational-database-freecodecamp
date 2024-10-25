@@ -1,10 +1,10 @@
 #!/bin/bash
 
-PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
-# echo $($PSQL "TRUNCATE TABLE teams, games")
+# create database
+psql --username=freecodecamp --dbname=postgres -c "CREATE DATABASE worldcup;"
 
-# Create database 
-echo $($PSQL "CREATE DATABASE worldcup")
+# connect database
+PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
 
 # Create teams table
 echo $($PSQL "CREATE TABLE teams(
