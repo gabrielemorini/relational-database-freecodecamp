@@ -1,7 +1,3 @@
-Scusa per la confusione! Ecco il README corretto con la giusta struttura delle cartelle che hai fornito:
-
----
-
 # World Cup Database Project
 
 ## Overview
