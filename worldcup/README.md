@@ -80,7 +80,3 @@ psql -U postgres < scripts/worldcup.sql
 
 ## Contributing
 If you have suggestions to improve this project, feel free to fork the repository and create a pull request.
-
----
-
-Fammi sapere se hai bisogno di ulteriori modifiche!
